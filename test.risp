@@ -1,0 +1,6 @@
+(def sum (a b) (+ a b))
+(def mul (a b) (* a b))
+(let a 5)
+(let b 6)
+
+(sum a (sum a b))
